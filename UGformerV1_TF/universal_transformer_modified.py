@@ -30,7 +30,9 @@ from __future__ import print_function
 from tensor2tensor.layers import common_attention
 from tensor2tensor.layers import common_layers
 from tensor2tensor.models import transformer
-import universal_transformer_modified_utils as universal_transformer_util
+from GraphTransformer.UGformerV1_TF import universal_transformer_modified_utils
+
+# import universal_transformer_modified_utils as universal_transformer_util
 from tensor2tensor.utils import registry
 
 import tensorflow as tf
